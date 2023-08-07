@@ -1,0 +1,14 @@
+<!-- role_select.html -->
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Select Role</h1>
+  <form method="POST">
+    {{ form.hidden_tag() }}
+    <p>
+      {{ form.role.label }}<br>
+      {{ form.role() }}
+    </p>
+    <p>{{ form.submit() }}</p>
+  </form>
+{% endblock %}

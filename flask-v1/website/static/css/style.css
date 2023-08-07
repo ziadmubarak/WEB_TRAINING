@@ -1,0 +1,25 @@
+body {
+    background-image: url('/static/images/bballcourt6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.custom-navbar {
+    background-color: #000000;
+}
+
+.custom-navbar .navbar-brand {
+    color: #ffffff; /* This sets the color of the title to white */
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    color: #ffffff; /* This sets the color of the links to white */
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+    color: #dddddd; /* This sets the color of the links to a lighter shade of white when you hover over them */
+}
+
+
+  
